@@ -1,0 +1,76 @@
+/* CSS */
+        body {
+            font-family: sans-serif;
+            line-height: 1.5;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border: 1px solid #ccc;
+        }
+        h1, h2 {
+            color: #1a3a5f;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        nav {
+            background: #eee;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            display: block;
+            margin: 5px 0;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .text-content {
+            display: inline-block;
+            vertical-align: top;
+            width: 55%;
+            margin-right: 4%;
+            font-size: 16px;
+        }
+        .image-placeholder {
+            display: inline-block;
+            vertical-align: top;
+            width: 35%;
+            height: 180px;
+            background: #ddd;
+            border: 1px solid #bbb;
+            text-align: center;
+            font-style: italic;
+            font-size: 12px;
+            line-height: 180px;
+        }
+
+        dt { font-weight: bold; margin-top: 10px; }
+        
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        /* Stile per nascondere il link in fondo */
+        .discreet-link {
+            display: block;
+            margin-top: 15px;
+            color: #333;
+            text-decoration: none;
+            opacity: 0.3; /* Rende il testo semitrasparente */
+            font-size: 9px; /* Molto piccolo */
+        }
+        .discreet-link:hover {
+            opacity: 1; /* Torna visibile se ci passi sopra con il mouse */
+        }
